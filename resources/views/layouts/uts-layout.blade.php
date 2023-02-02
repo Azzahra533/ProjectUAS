@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,6 +37,70 @@
         <div class="hidden md:flex lg:mr-10 sm:mr-0 lg:ml-10 md:ml-2">
           <button type="button" class=" text-white relative -top-1 md:mr-8 ">Login</button>
           <button type="button"class="relative -top-1 bg-[#8992FA] text-white font-bold py-1 px-2 md:py-2 lg:py-2 lg:px-10 hover:bg-slate-600">Sign Up</button>
+=======
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Scripts -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="lg:w-full lg:h-[110vh] md:w-full md:h-[110vh] sm:w-full sm:h-[110vh] bg-[#00A6B7]">
+        <div class="flex justify-between py-5">
+            <div class="lg:flex md:flex sm:flex gap-2 px-10">
+                <img src="img/Group 1961.png" alt="logo" class="lg:w-10 lg:h-10 lg:ml-10 md:w-10 md:h-10 md:ml-10 sm:w-10 sm:h-10 sm:ml-10">
+                <h1 class="text-white py-2"><b>mangcoding</b></h1>
+            </div>
+            <nav>
+                <ul class="lg:flex gap-5 text-white items-center space-x-1 md:items-center z-[0] md:z-auto md:static absolute bg-[#092032] md:bg-transparent w-full
+                     left-0 md:w-auto  md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" ><b>Home</b></a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >About</a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >Services</a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >Work</a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >Blog</a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >Resource</a></li>
+                    <li> <a href="#" class="px-5 hover:font-bold hover:scale-110" >Contact</a></li>
+                </ul>
+            </nav> 
+            <div id="right" class=" flex items-center gap-5">
+                <button type="button" class="py-1 px-6 bg-[#0C3E63] hover:bg-[#092032] hover:scale-110 rounded-full text-white text-sm">Build Website</button>
+                <button type="button" class="w-6 h-6 mr-10 hover:font-bold hover:scale-110 "><img src="img/Group.png" alt=""></button>
+            </div>
+            <span class="text-4xl cursor-pointer mx-2 md:hidden block">
+                <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+            </span>
+        </div>
+        <div class="mt-40 ml-20 text-white">
+            <img src="img/Group 1597882704.png" alt="" class="absolute top-[90px]">
+            <h3>Build your website</h3>  
+            <img src="img/Vector 390.png" alt="" class="absolute ml-[570px] top-[195px]">
+            <h1 class="lg:text-6xl sm:text-3xl font-bold pt-5">Develop your idea with <span class="text-[#004248]">Mangcoding</span> <br>
+                <span class="text-[#004248]">Team</span> Through
+                Digital Products</h1>
+            <p class="mt-5">Provide Website creation for your company ( Shopify, WordPrees, and Other )</p>
+            <img src="img/Group 1597882703.png" alt="" class="absolute ml-[750px] top-[400px]">
+            <img src="img/Group 1597882705.png" alt="" class="absolute ml-[500px] top-[500px]">
+            <img src="img/Group 1597882706.png" alt="" class="absolute ml-[300x] top-[500px] py-10">
+        </div>
+        <div class="mt-5 ml-20">
+            <button type="button" class=" mr-5 py-2 px-6 bg-[#0C3E63] rounded-full text-white hover:font-bold hover:scale-110 ">Build Website</button>
+            <button type="button" class="py-2 px-6 bg-[#00A6B7] rounded-full text-white border hover:font-bold hover:scale-110 ">Explors Blog</button>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- halaman Start -->
+    <section class="lg:w-full lg:h-[630vh] sm:w-full sm:h-[530vh]">
+        <div class="text-center py-10">
+            <h2 class="font-bold">Brands that Trust us</h2>
+>>>>>>> 4df0261c27bde7a523ffb08eb9dd91df2364019e
         </div>
         <span class="text-4xl cursor-pointer mx-2 md:hidden block">
           <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
@@ -174,7 +239,9 @@
         </div>
       </div>
     </section>
+    <!-- halaman End -->
 
+<<<<<<< HEAD
     <!-- Section 2 end -->
 
     <!-- Section 3 -->
@@ -244,6 +311,14 @@
               <h1 class=" text-1xl font-bold text-white">About</h1>
               <p class="text-xs pt-4 text-[#D8D8D8]"><a href="">Progress</a></p>
               <p class="text-xs pt-3 text-[#D8D8D8]"><a href="">Comment</a></p>
+=======
+    <!-- Footer -->
+    <footer class="w-full h-[100vh] bg-[#05080F]">
+        <div class="flex py-5">
+            <div class="flex gap-2">
+                <img src="img/Group 1961.png" alt="" class="w-10 h-10 ml-10">
+                <h1 class="text-white">mangcoding</h1>
+>>>>>>> 4df0261c27bde7a523ffb08eb9dd91df2364019e
             </div>
            
             <div class="lg:ml-16 ml-6 mt-48 md:mt-0  xl:mt-2 xl:mr-3">
@@ -277,6 +352,7 @@
         <div class="absolute mt-40 md:mt-16 lg:mt-9">
           <img src="img/Frame 12.png" alt="" class=" h-3 md:h-3 mt-[153px] lg:mt-0 md:mt-0  xl:mt-0">
         </div>
+<<<<<<< HEAD
      </section>
 
       <!-- Section 5 end -->
@@ -292,3 +368,20 @@
       </script>
 </body>
 </html>
+=======
+        <div>
+            <img src="img/b (1).png" alt="" class="ml-[36%] mt-5">
+        </div>
+        <div>
+            <p class=" lg:absolute sm:absolute text-white lg:mt-32 right-5">© 2022 Mangcoding | Powered by mangcoding</p>
+        </div>
+    </footer>
+    <script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
+  </body>
+</html>
+>>>>>>> 4df0261c27bde7a523ffb08eb9dd91df2364019e
